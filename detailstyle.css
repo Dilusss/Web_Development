@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+header {
+    text-align: center;
+    background-color: transparent;
+    color:#bc8f8f ;
+    padding: 20px 0  3px 0;
+}
+
+/* Style the title */
+.title {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Style the content section */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+	color:#bc8f8f ;
+	font-weight: bold;
+}
+
+/* Style the image */
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the description */
+.description {
+    max-width: 40%;
+    text-align: left;
+	padding: 30px;
+	font-size: 16px;
+}
+
+/* Style the link */
+.description a {
+    color: #0077cc;
+   
+}
+
+/* Style the link on hover */
+.description a:hover {
+    text-decoration: underline;
+}
+
+packageTitle
+{
+	text-align: left;
+	font-size: 18px;
+	
+}
+
+iframe {
+    border: none; /* Remove the default iframe border */
+   padding: 40px;
+}
+
+.cardimage img
+{
+border-radius: 10px;
+}
+
+.button
+{
+  background-color: #bc8f8f;
+border: 5px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-color:;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  
+}
+
+.button:hover
+{
+	background-color: darkblue;
+	color: white;
+	transition:.5s;
+	cursor: pointer;
+	
+
+}
+
+fieldset {
+background-color: #f0ead6;
+font-size: 16px;
+margin-left: 150px;
+margin-right: 150px;
+padding-top: 0.5em;
+padding-bottom: 0.7em;
+padding-left: 5em;
+padding-right: 5em;
+display: block;
+ color:#bc8f8f ;
+font-weight: bold;
+}
+
+legend {
+background-color: #bc8f8f ;
+color: white;
+padding: 5px 10px;
+font-size: 18px;
+padding-top: o.5em;
+
+}
+

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 500px;
+  padding: 16px;
+  background-color:#ffcc66;
+}
+
+
+.bg-img{
+  background-image: url("background.jpg");
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:Black;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+input[type="date"],
+input[type="number"] {
+
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#form-messages {
+    margin-top: 10px;
+    color: #007BFF;
+}
+
+/* Additional styling for select elements */
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: Black;
+	}
+	li {
+		float: right;
+	}
+	li a {
+		display: block;
+		color: white; 
+		text-align: center;
+		margin-right: 30px;
+		padding: 15px 20px;
+		text-decoration: none;
+	}
+	li a:hover:not(.active) {
+		background-color: white;
+		color: black;
+	}
